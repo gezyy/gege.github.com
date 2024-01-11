@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    padding: 20px;
+}
+
+.game-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.game-item img {
+    width: 100px; /* 根据实际情况调整 */
+    height: auto;
+    margin-right: 15px;
+}
+
+.game-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.game-info p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.bottom-links {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.bottom-links a {
+    display: block;
+    margin-bottom: 10px;
+}

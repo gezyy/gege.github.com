@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style-library.css">
+</head>
+<body>
+<div class="container">
+    <div class="images-container">
+        <div class="image-item">
+            <img src="resources/library-image1.jpg" alt="Image 1" onclick="showText(1)">
+            <p class="image-title">A Series of Yiping</p>
+        </div>
+        <div class="image-item">
+            <img src="resources/library-image2.jpg" alt="Image 2" onclick="showText(2)">
+            <p class="image-title">Night Chantintonesing</p>
+        </div>
+    </div>
+    <div class="text-container">
+        <textarea id="text-area" readonly></textarea>
+        <div class="buttons-row">
+            <button onclick="previousPage()">Previous</button>
+            <button onclick="playMusic()">Play Music</button>
+            <button onclick="nextPage()">Next</button>
+        </div>
+        <audio id="background-music" src="resources/music.mp3" autoplay loop></audio>
+        <p id="music-title">Clair de Lune</p>
+    </div>
+</div>
+<a href="index.html" id="go-back">Go Back</a>
+<script src="script-library.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* 整体布局和背景 */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('resources/background.jpg'); /* 替换为您的背景图片路径 */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, sans-serif; /* 或您选择的字体 */
+}
+
+/* 主标题样式 */
+#main-title {
+    font-size: 2em; /* 根据需要调整 */
+    color: black; /* 根据需要和背景图片调整 */
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    /* 添加Glitch效果的CSS（如果需要） */
+}
+
+/* GIF图片样式 */
+#animated-gif {
+    position: absolute;
+    right: 20px; /* 根据实际情况调整 */
+    bottom: 20px;
+    width: 150px; /* 根据GIF实际大小调整 */
+}
+
+/* 对话框样式 */
+#dialog-box {
+    position: absolute;
+    right: 180px; /* 根据GIF的位置和大小调整 */
+    bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 对话框中的文本样式 */
+#dialog-text {
+    color: #333;
+    margin: 0;
+    font-size: 1em;
+}
+
+/* 链接样式 */
+#links a {
+    display: block;
+    color: #0066cc;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+/* 初始时隐藏链接 */
+.hidden {
+    display: none;
+}

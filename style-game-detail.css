@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.content-section img {
+    width: 60%; /* 根据需要调整 */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.content-section h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.content-section p, .content-section a {
+    margin: 10px 0;
+    font-size: 1em;
+}
